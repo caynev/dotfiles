@@ -10,6 +10,8 @@ wget https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.
 sudo mkdir /usr/local/bin/nvim
 sudo tar -xvf /tmp/nvim.tar.gz -C /usr/local/bin/nvim/ --strip-components 1
 
+rm -rf ~/.oh-my-zsh
+
 git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
 
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
