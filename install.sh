@@ -25,9 +25,9 @@ git clone https://codeberg.org/caynevejvoda/zsh-config.git ~/.config/zsh
 rm -rf ~/.zshrc
 ln -s ~/.config/zsh/zshrc ~/.zshrc
 
-echo "export PATH=\"$PATH:/usr/local/bin/nvim/bin/:/usr/local/py-utils/bin/\"" >> ~/.bashrc
-echo "alias vim=\"nvim\"" >> ~/.bashrc
-echo "alias tmux=\"tmux -u\"" >> ~/.bashrc
+echo "export PATH=\"$PATH:/usr/local/bin/nvim/bin/:/usr/local/py-utils/bin/\"" >> ~/.zshrc
+echo "alias vim=\"nvim\"" >> ~/.zshrc
+echo "alias tmux=\"tmux -u\"" >> ~/.zshrc
 
 git config --global gpg.format ssh
 git config --global user.signingkey "key::ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINOJk2GCqHvTwe/4W+mwXRist758E1NUIEHIBQVp46Fc c.vejvoda@demv.de"
