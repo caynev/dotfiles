@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt-get update
-sudo apt-get install -y npm ripgrep fzf
+sudo apt-get install -y npm ripgrep fzf tig
 
 git clone https://codeberg.org/caynevejvoda/nvim-config ~/.config/nvim
 
