@@ -2,7 +2,7 @@
 sudo apt-get update
 sudo apt-get install -y npm ripgrep fzf tig
 
-git clone https://codeberg.org/caynevejvoda/nvim-config ~/.config/nvim
+git clone https://git.sr.ht/~caynevejvoda/nvim-config ~/.config/nvim
 
 wget https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz -O /tmp/nvim.tar.gz
 sudo mkdir /usr/local/bin/nvim
