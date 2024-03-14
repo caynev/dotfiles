@@ -1,8 +1,10 @@
 #!/bin/bash
 sudo apt-get update
-sudo apt-get install -y npm ripgrep fzf tig
+sudo apt-get install -y npm ripgrep fzf tig stow
 
-git clone https://git.sr.ht/~caynevejvoda/nvim-config ~/.config/nvim
+git clone https://git.sr.ht/~cayne/dotfiles ~/dotfiles
+
+stow -d ~/dotfiles/ nvim
 
 wget https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz -O /tmp/nvim.tar.gz
 sudo mkdir /usr/local/bin/nvim
